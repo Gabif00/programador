@@ -1,3 +1,8 @@
 pan 
 torta
 yerba
+banana 
+manzana
+pera
+sandia
+mandarina 
