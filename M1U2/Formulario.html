@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action=" method= ">
+        <p>
+            <label for="nom">Nombre:</label>
+            <input type="text" name="nombre" />
+        </p>
+        <P>
+            <label for="nom">Apellido:</label>
+            <input type="text" name="Apellido" />
+        </P>
+        <p><label for=pass">Contraseña:</label>
+            <input type="password" name="pass" />
+        </p>
+        <label for="Sexo">Sexo:</label>
+        <ul>
+            <li>
+                <input type="radio" name="Hombre">
+                <label>Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="Mujer">
+                <label>Mujer</label>
+            </li>
+        </ul>
+        <label> Hobbies : </label>
+        <ul>
+            <li>
+                <input type="checkbox" name="Hobbies" value="Bailar" id="Bailar">
+                <label for="Bailar">Bailar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Hobbies[]" value="Correr" id="Correr">
+                <label for="Correr">Correr</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Hobbies[]" value="Nadar" id="Nadar">
+                <label for="Nadar">Nadar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Hobbies[]" value="Futbol" id="Futbol">
+                <label for="Futbol">Futbol</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">Titulo:</label>
+            <select name="titulo">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+</body>
+
+</html>
