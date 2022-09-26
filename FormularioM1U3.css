@@ -1,0 +1,14 @@
+p{font-family: 'Times New Roman', Times, serif;color:black;}
+label{font-family: 'Times New Roman', Times, serif;color:black;}
+input {font-family: 'Times New Roman', Times, serif;color:black;}
+.cajatitulo{
+    width: 1350px;
+    height: 1200px;
+    background-color:rgb(197, 243, 124);
+}
+   #caja0{ width: 200px;
+    height: 80px;
+    background-color: rgb(27, 136, 155);
+    text-align: center;
+    position: fixed;left: 400px; } 
+    
